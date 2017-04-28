@@ -1,0 +1,29 @@
+.main_left{width: 600px;float:left;}
+
+
+.topic_desc{height: 36px;border-bottom:1px solid #ddd;}
+.topic_title{display:inline-block;height: 35px;line-height: 35px;border-bottom: 2px solid #ff3b2f;font-size: 18px;font-weight: bold;padding: 0px 2px;}
+.topic_csd{margin-left:24px;height: 35px;}
+.topic_csd li{float: left;font-size: 12px;color: #bdbdbd;padding: 0px 9px;cursor: pointer;height: 35px;line-height: 35px;font-size: 16px;color: #888;margin-right: 50px;}
+.topic_csd .checked_now{border-bottom: 2px solid #ff3b2f;color: #222;font-weight: bold;}
+
+
+.per_list_detail{display: none;}
+.show_topic_list{display: block;}
+.per_list_detail_li{padding: 20px 0px;border-bottom: 1px solid #ddd;zoom:1;display: block; height: 40px;position: relative;}
+.per_list_detail_li_one{padding: 20px 0px;border-bottom: 1px solid #ddd;zoom:1;display: block; height: 26px;}
+.per_list_detail_li:after{display:block;clear:both;content:"";}
+.remmend_topic_title{display: block;height: 28px;line-height: 28px;font-size:18px;font-weight: bold;color: #000;overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  -webkit-text-overflow:ellipsis;
+  -moz-text-overflow:ellipsis;
+  white-space:nowrap;width: 500px;}
+.remmend_topic_del{position: absolute;right: 0px;top: 30px;cursor: pointer;}
+.remmend_topic_time_answer_care{height: 22px;line-height: 22px;color: #888;}
+.remmend_topic_time_answer_care span{margin-right: 22px}
+.remmend_topic_time_answer_care span font{color:#ff3b2f;}
+
+.remmend_topic_reduction{margin-top: 12px;display: block;height: 14px;color:#2a2a2a;}
+.ignore_topic{display: inline-block;height: 36px;width: 80px;background:#888;border-radius:8px;line-height:36px;text-align: center;font-size: 16px;color: #fff;cursor: pointer;position: absolute;right: 0px;top: 20px;}
+.ignore_topic:hover{background:#ec6e66 };

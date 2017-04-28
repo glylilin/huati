@@ -1,0 +1,75 @@
+﻿*{margin:0;padding:0;}
+html{font-size:62.5%;color:#333;}
+body{font-size:1.4rem;font-family:Helvetica,STHeiti,Droid Sans Fallback;background:#fff;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#000;}
+img{vertical-align:top;border:none;}
+input,button,textarea{font-family:Helvetica,STHeiti,Droid Sans Fallback;border:none;background:none;outline:0;}
+
+.fullWidth{float:left;width:100%;}
+.iconfont{font-size:1.8rem;font-family:'iconfont';font-style:normal;}
+
+header{padding:1.1rem 0;border-bottom:0.05rem solid #eee;background:#fff;}
+header dt{float:left;margin-left:1.5rem;font-weight:bold;font-size:1.6rem;}
+header dt img{vertical-align:middle;height:2rem;margin-right:0.7rem;}
+header dd{float:right;margin-right:1rem;line-height:2rem;color:#ff4848;}
+header dd a{color:#ff4848;margin:0 0.5rem;}
+
+.huati_con{padding-bottom:2rem;}
+.huati_con .fenlei{padding:0.8rem;}
+.huati_con .fenlei a{display:inline-block;padding:0.3rem 1.1rem;color:#ff4848;border:0.1rem solid #ff4848;margin:0.6rem;border-radius:3.5rem;}
+.huati_con .tt{padding:0 1.4rem;font-size:2rem;}
+.huati_con .con{padding:2rem 1.4rem;line-height:180%;font-size:1.6rem;}
+.huati_con .con img{max-width:100%;}
+
+.icon{padding:0 0.6rem;color:#bbb;}
+.icon span{margin:0 0.8rem;}
+
+.huida_tt{padding:2rem 0 1rem 0;color:#898989;background:#f4f4f4;}
+.huida_tt dt{float:left;margin-left:0.9rem;}
+.huida_tt dd{position:relative;float:right;margin-right:0.9rem;}
+.huida_tt dd i{margin-left:0.5rem;font-size:1.4rem;}
+.huida_tt dd div{display:none;position:absolute;right:0;bottom:4rem;background:rgba(51,51,51,0.9);border-radius:0.8rem;}
+.huida_tt dd div a{display:block;margin:0 0.7rem;padding:1.4rem 0.8rem;width:10.5rem;color:#fff;border-bottom:0.1rem solid #fff;}
+.huida_tt dd div a img{float:right;margin:0.3rem 0;height:1.3rem;}
+.huida_tt dd div a:nth-child(2){border-bottom:0;}
+.huida_tt dd div label{position:absolute;right:1.6rem;bottom:-1rem;float:left;width:0;height:0;border-left:1rem solid transparent;border-right:1rem solid transparent;border-top:1rem solid rgba(51,51,51,0.9);}
+
+.huida_list li{padding:1.3rem 0 1.6rem 0;border-bottom:1rem solid #f4f4f4;}
+.huida_list li .user{position:relative;width:100%;height:6rem;}
+.huida_list li .user dt{position:absolute;left:0;top:0;margin-left:0.9rem;width:6rem;height:100%;}
+.huida_list li .user dt label{display:block;width:100%;height:100%;border-radius:10rem;overflow:hidden;}
+.huida_list li .user dt img{width:100%;}
+.huida_list li .user dt span{position:absolute;right:0;bottom:0;width:1.6rem;height:1.6rem;}
+.huida_list li .user dd{padding:1rem 1rem 0 7.7rem;line-height:2rem;font-size:1.6rem;color:#898989;}
+.huida_list li .user dd span{display:block;padding-top:1rem;color:#ddd;font-size:1.4rem;}
+.huida_list li .user dd img{margin-left:0.8rem;height:2rem;}
+.huida_list li .con,.huida_list li .con_all{padding:1.5rem 1rem;line-height:175%;}
+.huida_list li .con img,.huida_list li .con_all img{max-width:100%;}
+.huida_list li .con a,.huida_list li .con_all a{color:#5f82bb;}
+.huida_list li .con_all{display:none;}
+.huida_list li:last-child{border-bottom:0;}
+
+.xiaAPP{padding:3rem 0 10rem 0;line-height:180%;text-align:center;color:#5f82bb;font-size:1.6rem;}
+.xiaAPP span{color:#ff4848;}
+
+.bot_app{position:fixed;left:0;bottom:0;padding:1.5rem 0;border-top:0.05rem solid #eee;background:#fff;}
+.bot_app dt{float:right;margin-right:0.9rem;}
+.bot_app dt a{display:inline-block;padding:0.5rem 2.3rem;font-size:1.6rem;color:#fff;background:#ff4848;margin:0.6rem 0;border-radius:3.5rem;}
+.bot_app dd{float:left;margin:0 0 0 0.9rem;}
+.bot_app dd img{float:left;width:4.5rem;}
+.bot_app dd p{margin-left:5.6rem;line-height:2.2rem;font-size:1.6rem;white-space:nowrap;}
+.bot_app dd p span{display:block;color:#aaa;font-size:1.2rem}
+
+.huida_con dt{padding:1.5rem 1.4rem;font-size:2rem;font-weight:bold;border-bottom:1rem solid #f4f4f4;}
+.huida_con dd .user{padding:1rem 0;width:100%;height:6rem;border-bottom:0.05rem solid #eee;}
+.huida_con dd .user p{position:relative;float:left;margin-left:0.9rem;width:6rem;height:100%;}
+.huida_con dd .user p label{display:block;width:100%;height:100%;border-radius:10rem;overflow:hidden;}
+.huida_con dd .user p img{width:100%;}
+.huida_con dd .user p span{position:absolute;right:0;bottom:0;width:1.6rem;height:1.6rem;}
+.huida_con dd .user div{padding:1rem 1rem 0 7.7rem;line-height:2rem;font-size:1.6rem;color:#333;}
+.huida_con dd .user div span{display:block;padding-top:1rem;color:#898989;font-size:1.2rem;}
+.huida_con dd .user div img{margin-left:0.8rem;height:2rem;}
+.huida_con dd .con,.huida_con dd .con_all{padding:1.5rem 1rem;line-height:180%;font-size:1.6rem;}
+.huida_con dd .con img,.huida_con dd .con_all img{max-width:100%;}
+.huida_con dd .con_all{display:none;}

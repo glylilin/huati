@@ -1,0 +1,12 @@
+.tabs_list{margin-top:40px;height:35px;border-bottom: 1px solid #ddd;background: #f6f6f6;}
+	.tab{float: left;display: inline-block;width:100px;height:17px;text-align: center;padding: 9px 0px;font-size: 16px;cursor: pointer;}
+
+	.tab span{display: block;border-right: 1px solid #888;height: 16px;line-height: 16px;width: 102px;color: #888;}
+	.tab:last-child span{border-right: none;}
+	.tab span font{color:#ff3b2f;margin-left: 6px;}
+	.pointer{background:#ec6e66;}
+	.pointer span{color: #fff;}
+	.pointer span font{color: #fff;}
+	.pointers{background:#ec6e66;}
+	.pointers span{color: #fff;}
+	.pointers span font{color: #fff;}

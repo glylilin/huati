@@ -1,0 +1,33 @@
+.main_right{width: 300px;float: right;}
+.center_self{font-size: 16px;color: #444}
+.center_info{margin-top: 6px;border-top: 1px solid #ddd;}
+.center_info a{padding: 12px 0px;display: block;height: 14px;color: #666; line-height:14px;text-indent: 24px;cursor: pointer;}
+.center_info a:hover{color: #ff3b2f;}
+.center_info a.ahover{color: #ff3b2f;}
+.center_info .care{background: url(../images/care.png) 0px center no-repeat;}
+.center_info .question{background: url(../images/question.png) 0px center no-repeat;}
+.center_info .answer{background: url(../images/answer.png) 0px center no-repeat;}
+.center_info .collection{background: url(../images/collection.png) 0px center no-repeat;}
+.center_info .invite{background: url(../images/invite.png) 0px center no-repeat;}
+.base_hot_topic{margin-top: 16px;height: 28px;line-height: 28px;border-bottom: 1px solid #e7e7e7;}
+.base_hot_topic h2{font-size:16px; float: left;}
+.change_hot{float: right;color:#aaaaaa;font-size: 13px;cursor: pointer; }
+.base_hot_topic_list{padding: 4px 0px 20px;}
+.base_hot_topic_list li{display:block;height: 34px;line-height: 34px;overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  -webkit-text-overflow:ellipsis;
+  -moz-text-overflow:ellipsis;
+  white-space:nowrap;}
+.base_hot_topic_list li b{margin-right: 6px;color: #444444;}
+.base_hot_topic_list li a{color:#777777;}
+.base_hot_topic_list li a:hover{color: #ff3b2f;}
+.app_info{height: 268px;background: #fff;position: relative;border: 1px solid #e7e7e7;}
+.topic_right_tag{position: absolute;left: 0px;top: -2px;}
+.puamap_app_title{font-size: 18px;font-weight: bold;display: block;text-align: center;margin-top: 22px;}
+.puamap_app_desc{font-size: 14px;display: block;text-align: center;margin-top: 8px;}
+.app_img{height: 114px;width: 114px;display: block;margin: 12px auto 0px; }
+.index_right_wechat_download{height: 45px;margin-top: 10px;}
+.puamap_logo{width: 45px;height: 45px;margin-left:86px;float: left; }
+
+.puamap_detail{color:#666666;height: 45px;line-height: 45px;margin-left: 8px;display: inline-block;float: left;font-size: 18px;}

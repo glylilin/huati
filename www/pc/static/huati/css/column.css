@@ -1,0 +1,17 @@
+.main_left{width: 600px;float:left;}
+.topic_desc{height: 36px;border-bottom:1px solid #ddd;}
+.topic_title{display:inline-block;height: 35px;line-height: 35px;border-bottom: 2px solid #ff3b2f;font-size: 18px;font-weight: bold;padding: 0px 2px;}
+.topic_main_list{margin-top: 10px;}
+.topic_main_list .per_list_detail_li{padding: 20px 0px;height:60px;border-bottom: 1px solid #ddd;zoom:1;margin-right: 14px;}
+.topic_main_list .per_list_detail_li:last-child{border-bottom: none;}
+.topic_main_list .per_list_detail_li:after{display:block;clear:both;content:"";}
+.per_list_detail_li .teacher_column_header{display: inline-block;height: 60px;width: 60px;border-radius: 50%;float: left;margin-right: 16px;}
+.per_list_detail_li .teacher_column_info{display: inline-block;height: 60px;float: left;}
+					.teacher_info_top{height: 34px;}
+					.teacher_column_info_name{display: inline-block;height:34px;line-height:34px;color: #333;font-size: 18px;margin-right: 12px;float: left;}
+					.ticon{height: 34px;display: inline-block;width: 48px;background: url(../images/ticon.png) 0px center no-repeat;float: left;}
+					.teacher_info_brief{height: 26px;display: inline-block;color:#888;font-size: 13px; }
+					.teacher_info_brief span{padding: 0px 8px;border-left: 1px solid #888;margin-top: 6px;height: 14px;line-height: 14px;display: inline-block;}
+					.teacher_info_brief span:first-child{border-left: none;padding-left: 0px;}
+					.nocare{color: #aaa;height: 26px;width: 82px;display: inline-block;background:#f3f3f3;border-radius: 13px;line-height: 26px;text-align: center;cursor: pointer;float: right;margin-top: 32px;}
+					.caring{background:#ff3b2f;color: #fff;}

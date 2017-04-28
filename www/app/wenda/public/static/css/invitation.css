@@ -1,0 +1,42 @@
+.main_left{width: 600px;float:left;}
+.topic_desc{height: 124px;border-bottom:1px solid #ddd;padding-bottom: 12px;}
+			.user_icon{height: 124px;width: 124px;display: inline-block;border-radius:4px;margin-right: 20px;float: left;}
+			.reduction{height: 96px;float: left;padding-top: 38px;}
+			.username_sex{height: 32px;line-height: 32px;color:#ff3b2f;font-size: 18px; padding-right: 24px;}
+			.women{background: url(../images/women.png) right center no-repeat;}
+			.information{height: 26px;line-height: 26px;font-size: 16px;color: #888;}
+			.fans_caring{height: 24px;line-height: 24px;color: #2b2b2b;}
+			.fans_caring span{margin-right: 32px;}
+			.fans_caring font{color:#ff3b2f;margin-left: 8px;}
+.topic_main_list{margin-top: 10px;}
+
+
+.main_page{margin-top: 16px;text-align: center;color: #999;margin-bottom: 10px;}
+	.main_page a{color: #777;cursor: pointer;}
+	.main_page a:hover{color: #ff3b2f;}
+	.main_page .active{color:#ff3b2f; }
+
+.per_list_detail_li{padding: 20px 0px 14px;border-bottom: 1px solid #ddd;zoom:1;}
+.per_list_detail_li_one{padding: 30px 0px 12px;border-bottom: 1px solid #ddd;zoom:1;display: block;}
+.per_list_detail_li:after{display:block;clear:both;content:"";}
+.remmend_topic_title{display: block;height: 28px;line-height: 28px;font-size:18px;font-weight: bold;color: #000;overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  -webkit-text-overflow:ellipsis;
+  -moz-text-overflow:ellipsis;
+  white-space:nowrap;width: 500px;}
+.remmend_topic_del{position: absolute;right: 0px;top: 30px;cursor: pointer;}
+.remmend_topic_time_answer_care{height: 22px;line-height: 22px;color: #888;}
+.remmend_topic_time_answer_care span{margin-right: 22px}
+.remmend_topic_time_answer_care span font{color:#ff3b2f;}
+.remmend_topic_time_answer_care .invitation_time{float: right;margin-right:0px;}
+.remmend_topic_reduction{color:#2a2a2a;}
+.how_many_person_agree_it{height: 30px;line-height: 30px;color: #888;}
+
+.notice_bottom{height: 28px;}
+.notice_bottom a{float: left;}
+.notice_bottom a:hover{background: #ec6e66;}
+.notice_bottom .del_notice{display: inline-block;height: 28px;line-height: 28px;width: 60px;background: #0e8ee7;border-radius: 4px;color: #fff;cursor: pointer;text-align: center;float: left;margin-left: 40px;}
+
+
+

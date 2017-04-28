@@ -1,0 +1,134 @@
+.huati_search{position:relative;padding:0.15rem;background:#fff;}
+.huati_search form{padding:0.1rem;border-radius:0.08rem;background:#eee;}
+.huati_search input{width:100%;height:0.35rem;line-height:0.35rem;font-size:0.24rem;background:none;border:0;}
+.huati_search p{position:absolute;left:0;top:0;width:100%;height:100%;line-height:0.85rem;text-align:center;color:#898989;font-size:0.24rem;}
+.huati_search p img{width:0.22rem;margin:0.32rem 0.1rem 0 0;}
+
+.huati_nav{padding:0.2rem 0.15rem;height:1.2rem;background:#fff;}
+.huati_nav li{float:left;width:33.3%;text-align:center;font-size:0.24rem;}
+.huati_nav li a{display:block;}
+.huati_nav li i{display:inline-block;vertical-align:top;width:0.8rem;height:0.8rem;border-radius:0.2rem;}
+.huati_nav li .nav1{background:#ff7474 url(../img/icon1.png) no-repeat center;background-size:0.46rem auto;}
+.huati_nav li .nav2{background:#90d04b url(../img/icon2.png) no-repeat center;background-size:0.46rem auto;}
+.huati_nav li .nav3{background:#6d9be0 url(../img/icon3.png) no-repeat center;background-size:0.46rem auto;}
+.huati_nav li p{margin:0.1rem 0 0 0;color:#333;}
+
+.huati_list1 li{padding:0.25rem 0.15rem;background:#fff;margin-bottom:0.2rem;}
+.huati_list1 li .promulgator{height:0.8rem;}
+.huati_list1 li .promulgator .name{float:left;width:70%;overflow:hidden;}
+.huati_list1 li .promulgator .name div{position:relative;float:left;width:0.8rem;height:0.8rem;}
+.huati_list1 li .promulgator .name div span{display:block;height:0.8rem;border-radius:1rem;overflow:hidden;}
+.huati_list1 li .promulgator .name div span img{width:100%;min-height:100%;}
+.huati_list1 li .promulgator .name div i{position:absolute;right:0;bottom:0;width:0.26rem;height:0.26rem;border-radius:1rem;}
+.huati_list1 li .promulgator .name p{margin:0 0 0 0.95rem;line-height:0.35rem;}
+.huati_list1 li .promulgator .name p span{display:block;margin:0.1rem 0 0 0;white-space:nowrap;font-size:0.28rem;color:#333;}
+.huati_list1 li .promulgator .name p label{display:block;margin:0.05rem 0 0 0;white-space:nowrap;font-size:0.24rem;color:#898989;}
+.huati_list1 li .promulgator .name p label a{color:#898989;}
+.huati_list1 li .promulgator .gz{float:right;margin:0.05rem 0 0 0;}
+.huati_list1 li .promulgator .gz a{display:block;width:1.2rem;height:0.4rem;line-height:0.4rem;text-align:center;color:#ddd;font-size:0.22rem;border:0.005rem solid #ddd;border-radius:0.25rem;}
+.huati_list1 li .promulgator .gz .current{background:#ddd;color:#fff;}
+.huati_list1 li .info a{display:block;margin:0.2rem 0 0 0;}
+.huati_list1 li .info .tt{line-height:0.44rem;font-size:0.32rem;color:#333;}
+.huati_list1 li .info .con{margin:0.2rem 0 0 0;}
+.huati_list1 li .info .con p{max-height:2rem;overflow:hidden;}
+.huati_list1 li .info .con p img{width:100%;}
+.huati_list1 li .info .con div{margin:0.2rem 0 0 0;max-height:1.2rem;line-height:0.4rem;color:#333;overflow:hidden;}
+.huati_list1 li .people{margin:0.2rem 0 0 0;line-height:0.3rem;color:#bbb;font-size:0.22rem;}
+.huati_list1 li .people i{margin:0 0.15rem;font-style:normal;}
+
+.huati_fenli{margin-top:0.2rem;background:#fff;}
+.huati_fenli li{position:relative;padding:0.25rem 0;margin:0 0.15rem;border-bottom:0.005rem solid #eee;white-space:nowrap;overflow:hidden;}
+.huati_fenli li .left{display:block;margin:0 1.3rem 0 0;height:100%;line-height:auto;padding:0;}
+.huati_fenli li p{line-height:0.4rem;font-size:0.32rem;color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.huati_fenli li div{line-height:0.3rem;padding-top:0.12rem;color:#bbb;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.huati_fenli li div span{color:#bbb;font-size:0.22rem;margin:0 0.2rem 0 0;}
+.huati_fenli li div .font_grey{color:#898989;margin-right:0.05rem;}
+.huati_fenli li div .span2{margin:0 0.15rem;}
+.huati_fenli li div .span3{margin:0 0 0 0.3rem;}
+.huati_fenli li div .no_marL{margin-left:0;}
+.huati_fenli li label{position:absolute;right:0;top:0.25rem;width:1.2rem;height:0.4rem;line-height:0.4rem;text-align:center;font-size:0.22rem;color:#ddd;border:0.005rem solid #ddd;border-radius:0.3rem;}
+.huati_fenli li .current{background:#ddd;color:#fff;}
+
+.huati_fenli2{margin-top:0.2rem;background:#fff;}
+.huati_fenli2 li{position:relative;padding:0.25rem 0;margin:0 0.15rem;border-bottom:0.005rem solid #eee;white-space:nowrap;overflow:hidden;}
+.huati_fenli2 li .left{display:block;margin:0 1.3rem 0 0;height:100%;line-height:auto;padding:0;}
+.huati_fenli2 li p{line-height:0.4rem;font-size:0.32rem;color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.huati_fenli2 li div{line-height:0.3rem;padding-top:0.12rem;color:#bbb;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.huati_fenli2 li div span{color:#bbb;font-size:0.22rem;margin:0 0.2rem 0 0;}
+.huati_fenli2 li div .font_grey{color:#898989;margin-right:0.05rem;}
+.huati_fenli2 li div .span2{margin:0 0.15rem;}
+.huati_fenli2 li div .span3{margin:0 0 0 0.3rem;}
+.huati_fenli2 li div .no_marL{margin-left:0;}
+.huati_fenli2 li label{position:absolute;right:0;top:0.25rem;width:1.2rem;height:0.4rem;line-height:0.4rem;text-align:center;font-size:0.22rem;color:#ddd;border:0.005rem solid #ddd;border-radius:0.3rem;}
+.huati_fenli2 li .current{background:#ddd;color:#fff;}
+
+
+.huati_lei{margin:0.2rem 0 0 0;padding:0.15rem;background:#fff;}
+.huati_lei dt{float:left;width:1.3rem;height:1.3rem;overflow:hidden;}
+.huati_lei dt img{width:100%;min-height:100%;}
+.huati_lei dd{margin:0 0 0 1.55rem;white-space:nowrap;overflow:hidden;}
+.huati_lei dd p{line-height:0.4rem;font-size:0.32rem;}
+.huati_lei dd div{padding:0.09rem 0;line-height:0.3rem;color:#898989;font-size:0.22rem;}
+.huati_lei dd div i{font-style:normal;margin:0 0.25rem 0 0;}
+.huati_lei dd span{display:block;}
+.huati_lei dd span a{display:inline-block;padding:0 0.15rem;height:0.4rem;line-height:0.4rem;color:#ca575c;font-size:0.22rem;border:0.005rem solid #ca575c;border-radius:0.3rem;}
+.huati_lei dd span .current{background:#ca575c;color:#fff;}
+
+.huati_toutiao{margin:0.2rem 0;padding:0.15rem;background:#fff;}
+.huati_toutiao dt{float:left;width:0.88rem;height:0.88rem;overflow:hidden;}
+.huati_toutiao dt img{width:100%;min-height:100%;}
+.huati_toutiao dd{margin:0 0 0 1.05rem;}
+.huati_toutiao dd a{display:block;height:0.44rem;line-height:0.44rem;color:#333;font-size:0.28rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.huati_toutiao dd i{display:inline-block;margin:0 0.1rem 0 0;padding:0 0.1rem;height:0.27rem;line-height:0.27rem;font-size:0.22rem;font-style:normal;color:#ca575c;border:0.005rem solid #ca575c;border-radius:0.2rem;}
+
+.huida_con{background:#fff;}
+.huida_con .lei{padding:0.25rem 0.15rem;}
+.huida_con .lei a{margin:0 0.2rem 0 0;display:inline-block;padding:0 0.25rem;height:0.42rem;line-height:0.42rem;color:#ca575c;font-size:0.28rem;border:0.005rem solid #ca575c;border-radius:0.3rem;}
+.huida_con .tt{margin:0 0.15rem;line-height:0.6rem;font-size:0.4rem;font-weight:normal;}
+.huida_con .con{margin:0.3rem 0.15rem;font-size:0.32rem;line-height:0.48rem;color:#333;}
+.huida_con .con img{max-width:100%;display:block;margin:0.1rem 0;}
+.huida_con .people{margin:0.2rem 0.15rem 0.32rem 0.15rem;height:0.4rem;line-height:0.4rem;font-size:0.22rem;color:#898989;}
+.huida_con .people i{margin:0 0.15rem;font-style:normal;}
+.huida_con .people span{float:left;width:70%;white-space:nowrap;overflow:hidden;}
+.huida_con .people label{float:right;}
+.huida_con .people a{display:inline-block;padding:0 0.2rem;height:0.38rem;line-height:0.38rem;border:0.005rem solid #ddd;color:#ddd;font-size:0.22rem;border-radius:0.35rem;}
+.huida_con .people .current{background:#ddd;color:#fff;}
+.huida_con .btn{display:block;height:0.98rem;line-height:0.98rem;color:#fff;text-align:center;font-size:0.32rem;background:#ca575c;}
+.huida_con .btn img{height:0.36rem;margin:0.31rem 0.15rem 0 0;}
+
+.no_marTop{margin-top:0;}
+
+.huati_list2{background:#fff;}
+.huati_list2 li{position:relative;margin:0 0.15rem;padding:0.2rem 0;border-bottom:0.005rem solid #eee;}
+.huati_list2 li .info{line-height:0.35rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.24rem;color:#333;}
+.huati_list2 li .tt{line-height:0.45rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.28rem;color:#333;font-weight:bold;}
+.huati_list2 li .data{margin:0.15rem 1.3rem 0 0;font-size:0.22rem;color:#bbb;}
+.huati_list2 li .data i{font-style:normal;margin:0 0.15rem;}
+.huati_list2 li .del{position:absolute;right:0;bottom:0.2rem;width:1.2rem;height:0.4rem;line-height:0.4rem;text-align:center;font-size:0.22rem;color:#ddd;border:0.005rem solid #ddd;border-radius:0.3rem;}
+
+.hidden{display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

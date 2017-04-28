@@ -1,0 +1,31 @@
+<?php
+return [
+    'TOPIC'=>"话题",
+    'INDEX'=>'首页',
+    'ADD_QUESTION'=>'提问',
+    'ANSWER'=>'回答',
+    'TEACHER_CLOUMN'=>"导师专栏",
+    'USER_CENTER'=>"个人中心",
+    'USER_NOTICE'=>'通知',
+    'USER_SETTING'=>'设置',
+    'LOGOUT'=>'退出',
+    'LOGIN'=>'登录',
+    'REGISTER'=>'注册',
+    'FORGET'=>'忘记密码?',
+    'MY_CARE'=>'我的关注',
+    'MY_QUESTION'=>'我的提问',
+    'MY_ANSWER'=>'我的回答',
+    'MY_COLLECTION'=>'我收藏的话题',
+    'MY_INVITE'=>'邀请我回答的话题',
+    'BEST_HOT_TOPIC'=>'最热话题',
+    'FOR_A_BATCH'=>'换一批',
+    'COMPANY_NAME'=>'浪迹教育',
+    'APP'=>'浪迹教育APP',
+    'APP_DESC'=>'从屌丝蜕变男神神器',
+    'DOWNLOAD_WAY'=>'扫描下载',
+    'COPYRIGHT'=>'Copyright 2017 实战 <a href="http://www.puamap.com" target="_blank" class="pua">pua</a> 社区-浪迹教育 All Rights Reserved.',
+    'ILLEGAL_OPERATION'=>"非法操作",
+    'TOPIC_ALL' =>'全部',
+    'ACCESS_TOKEN_ERROR'=>"表单验证错误"
+];
+?>

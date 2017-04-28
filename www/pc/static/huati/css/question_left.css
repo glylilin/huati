@@ -1,0 +1,83 @@
+.main_left{width: 600px;float:left;}
+.topic_type{width:600px;}
+
+.topic_desc{height: 36px;border-bottom:1px solid #ddd;}
+.topic_title{display:inline-block;height: 35px;line-height: 35px;border-bottom: 2px solid #ff3b2f;font-size: 18px;font-weight: bold;padding: 0px 2px;}
+
+
+.topic_main_list{margin-top: 10px;}
+.topic_main_list dt{line-height: 40px;color:#444;font-size: 16px;padding-left: 10px;}
+.require{border: 1px solid #eee;border-radius: 5px;display: inline-block;color: #aaa; }
+.input{height:46px;width:598px;margin-bottom: 12px; text-indent: 10px;}
+.textarea{min-height:168px;width: 578px;padding: 15px 10px; resize:none;}
+.topic_type{border: 1px solid #eee;border-radius: 5px;display: inline-block;color: #aaa;height:46px;width:598px;margin-bottom:8px; text-indent: 10px;position: relative;}
+.show_type_list{width: 552px;height: 46px;line-height: 46px;float: left;border: none;text-indent: 10px;}
+.show_type_list span{color: #aaa;padding: 4px 12px;margin-right: 10px;border: 1px solid #0e8ee7;border-radius: 4px;}
+.show_down{width: 46px;height: 46px;display: inline-block;float: left;background: url(../images/down.png) center no-repeat;cursor: pointer;}
+.topic_list_detail{position: absolute;top: 48px;left: 0px;width: 552px;background: #fff;z-index: 120;display: none;}
+
+.topic_list_detail li{float: left;padding: 6px 12px;margin: 10px 10px;background: #ddd;color:#0e8ee7;cursor: pointer; text-indent: 0px;border-radius: 4px;}
+.topic_list_detail li:hover{color: #fff;background:#0e8ee7; }
+.topic_list_detail .current{color: #fff;background:#0e8ee7; }
+.topic_list_detail_bottom{border-top: 1px solid #ccc;height: 28px;}
+.topic_list_detail_bottom span{display: inline-block;height: 24px;line-height: 24px;width:60px;background:#0e8ee7;color: #fff;float: right;margin-left: 10px;border-radius: 4px;cursor: pointer;margin-top: 4px;text-align: center;}
+
+.hot_topic{margin-left: 10px;height: 24px;line-height: 24px;color: #ccc;}
+.hot_topic span{float: left;}
+.remment_hot_topic{height: 24px;line-height: 24px;float: left;}
+.remment_hot_topic li{float: left;margin: 0px 6px;padding: 0px 16px; background: #fff;border: 1px solid #ff3b2f; color: #ff3b2f;border-radius: 12px; cursor: pointer;}
+.request{display: block;min-height: 28px;margin-top: 24px;}
+.request .teacher{float: left;display:inline-block;height: 28px;line-height: 28px;color: #444;font-size: 16px;}
+.request_teacher{line-height: 24px;float: left;padding-left: 6px;max-width: 510px;}
+.request_teacher li{float: left;line-height: 24px;height: 24px;padding:0px 10px;margin: 6px 6px;background: #ddd;color:#0e8ee7;border-radius:12px;font-size: 12px;}
+.request_teacher  .del{color:#aaaaaa;cursor: pointer;margin-left: 12px; }
+.my_request_top{margin-top:8px;height: 30px;line-height: 30px; }
+.my_request{height: 30px;width: 90px;display: inline-block;line-height: 30px;text-align: center;color: #fff;background: #0e8ee7;border-radius: 4px;cursor: pointer;}
+.my_request_top .js{height: 30px;line-height: 30px;color: #aaa;margin-left: 10px;}
+
+.cryptonym{margin-top: 20px;padding-top: 10px 0px;}
+.cryptonym input{display: none;}
+.cryptonym span{height: 40px;margin:0px 9px;padding: 1px;text-indent: 28px;width: 44px;display: inline-block;cursor: pointer; background: url(../images/isfalse.png) 0px center no-repeat;}
+.cryptonym .isTrue{background: url(../images/istrue.png) 0px center no-repeat;}
+.last_sub{text-align:center;}
+.question_submit{display: inline-block;height: 38px;width: 116px;line-height: 38px;background: #ddd;color:444;font-size: 16px;border-radius: 4px;cursor: pointer;}
+.teacher_dialog{position: fixed;height: 100%;width: 100%;background: #999;z-index: 130;	filter:alpha(opacity=50);  
+      -moz-opacity:0.5;  
+      -khtml-opacity: 0.5;  
+      opacity: 0.5;
+      top: 0px;
+      left: 0px;
+      display: none;
+  }
+  .teacher_alert{height:466px;width: 560px;background: #fff;position: fixed;z-index: 140;left:50%;top: 154px;margin-left:-265px;border-radius: 6px;display: none;}
+  .alert_top{height: 38px;padding-top: 4px;background:#dc2e23; border-top-left-radius: 6px;border-top-right-radius: 6px;}
+  .show_mess{display: inline-block;height: 38px;line-height: 38px;color: #fff;font-size: 16px;font-weight: bold;margin-left: 10px;float: left;}
+  .alert_del{height: 13px;width: 13px;display: inline-block;float: right;margin-top:12px;margin-right: 16px;cursor: pointer;}
+  .alert_main{max-height: 380px;height: 380px;padding: 0px 16px;overflow-y: scroll;}
+  .alert_main_dialog{position:absolute;top:42px;right: 0px;height: 380px;width:16px;z-index: 999; background:#fff;display: inline-block;}
+  .alert_main ul{position:relative;top: 0px;left: 0px;}
+  .alert_main li{height: 56px;border-bottom:1px solid #eee;padding: 15px 0px;}
+  .teacher_icon{float: left;margin-right: 12px;display: inline-block;width: 56px;height: 56px;position: relative;}
+  .teacher_icon img{width: 56px;height: 56px;}
+  .teacher_icon i{display: inline-block;height: 16px;width: 16px;position: absolute;right: 0px;bottom: 0px;background:url(../images/tfalse.png) center no-repeat;cursor: pointer;z-index: 160}
+  .teacher_icon .tchecked{background: url(../images/ttrue.png) center no-repeat;}
+
+  .teacher_info{height: 56px;float: left;width: 430px;}
+  .teacher_info .teacher_info_top{height: 30px;display: block;}
+  .teacher_name{display: inline-block;height: 30px;line-height: 30px;color: #333;font-size: 16px;}
+  .teacher_info .ans,.ques,.car{float: right;color: #aaa;font-size: 12px;padding: 0px 8px;height: 14px;line-height: 14px;margin-top: 8px;}
+  .teacher_info .ans,.ques{border-right: 1px solid #aaa;}
+  .teacher_info .teacher_desc{margin-top:4px;height: 22px;line-height: 22px;font-size:12px;color:#aaa;text-overflow:ellipsis;overflow:hidden;
+  -o-text-overflow:ellipsis;
+  -webkit-text-overflow:ellipsis;
+  -moz-text-overflow:ellipsis;
+  white-space:nowrap;}
+
+  .alert_end{height: 44px;background:#f7f7f7;border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;padding: 0px 16px;}
+  .alert_end span{float: right;margin-top: 10px;height: 24px;line-height: 24px;display: inline-block;padding: 0px 24px;cursor: pointer;}
+  .alert_end .checked_teacher_reset{color:#999;}
+  .alert_end .checked_teacher_submit{color:#ff3c30;border: 1px solid #ff3c30;border-radius: 4px;}
+
+  .editor{width: 580px;height: 180px;resize:none;padding: 9px;border: 1px solid #eee;border-radius: 4px;background: #f8f8f8;margin-top: 20px;}
+.detail_reply_submit{height: 36px;margin-top: 14px;}
+.detail_reply_submit .answer_submit{height: 36px;line-height: 36px;width: 80px;float: right;border-radius: 6px;color:#fff;font-size: 16px;text-align: center;cursor: pointer;background:#ff3b2f;  }

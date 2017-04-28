@@ -1,0 +1,20 @@
+<?php
+return [
+    'REQUIRED'=>'*此项为必填项*',
+    'PHONE'=>'电话号码格式不正确',
+    'PHONE_EXSITS'=>'该手机号码已经被注册',
+    'PASSWORD_LENGTH'=>"密码长度为6到20位",
+    'PASSWORD_NEQ_REPASSWORD'=>'两次密码不一致',
+    'CODE_ERROR'=>"验证码错误",
+    'ACCOUNT_NEXISTS'=>'账号不存在',
+    'ACCOUNT_DELETED'=>'账号已被删除',
+    'ACCOUNT_NACTIVE'=>'账号未激活',
+    'ACCOUNT_NSTATUS'=>'账号已被禁用',
+    'PASSWORD_ERROR'=>"账号或密码错误",
+    'MOBILE'=>'电话号码',
+    'PASSWORD'=>'密码',
+    'NO_SIGN'=>'no_sign',
+    'INTEGER'=>'必须为整数',
+    'NEXISTS'=>'不存在',
+    'CODE_ERROR'=>'验证码错误'
+];
